@@ -1,8 +1,7 @@
 # spring-todo-tutorial
-[[Notion](https://cubic-socks-779.notion.site/Spring-Todo-Tutorial-5b8b18215a0047e5b30d2bfd986c5b01)]
-
 > 소요 시간: 8시간 * 7일
 
+[**[Notion](https://cubic-socks-779.notion.site/Spring-Todo-Tutorial-5b8b18215a0047e5b30d2bfd986c5b01)**]
 
 ## 학습자료
 
