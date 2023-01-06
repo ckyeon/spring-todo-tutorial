@@ -8,10 +8,8 @@ import lombok.Getter;
 public class UpdateRequestDto {
 
     @Email
-    @NotNull
     private String email;
 
-    @NotNull
     private String name;
 
     private String description;
