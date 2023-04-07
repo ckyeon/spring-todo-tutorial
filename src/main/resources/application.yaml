@@ -1,27 +1,23 @@
 spring:
+  application:
+    name: sequence_tutorial
+
   datasource:
-    url: jdbc:h2:tcp:localhost/~/sequence/todo;NON_KEYWORDS=USER
     driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:sequence_tutorial;MODE=MYSQL;DB_CLOSE_DELAY=-1
     username: sequence
     password:
 
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
 
   jpa:
-    database: h2
-    show-sql: true
-
     hibernate:
       ddl-auto: create
 
     properties:
       hibernate:
         format_sql: true
-
-
-logging:
-  level:
-    org:
-      hibernate:
-        type:
-          descriptor:
-            sql: trace
+        show_sql: true
